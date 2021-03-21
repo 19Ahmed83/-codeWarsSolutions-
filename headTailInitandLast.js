@@ -12,6 +12,6 @@ const init = (arr) => {
     return arr.slice(0, arr.length - 1)
 }
 
-const last = (arr) => {
+let last = (arr) => {
     return +arr.slice(-1)
 }
